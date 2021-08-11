@@ -13,7 +13,7 @@ const Social = styled.a`
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
-    
+    color: black;
     &:hover {
         transform: translateY(-2px);
     }
@@ -51,6 +51,7 @@ export default function SocialFollow() {
             className="youtube social" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTelegramPlane} size="2x" />
             </Social>
+            <h3>Farooq Syed</h3>
          </SocialWrapper>
   );
 }

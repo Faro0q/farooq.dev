@@ -12,7 +12,7 @@ const ProfileSection = styled.a`
 `;
 
 const ProfileWrapper = styled.div`
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 20px;
     width: 100%;
     height: 70%;
@@ -34,7 +34,7 @@ const ProfilePic = () => {
                 imageHeight="500"
                 roundedSize="10"
                 borderRadius="500"
-                hoverColor="#DD1144"
+                hoverColor="RosyBrown"
                 />
             </ProfileWrapper>
         </ProfileSection>

@@ -5,10 +5,10 @@ import {menuData} from '../data/MenuData'
 import {FaBars} from 'react-icons/fa'
 
 const Nav = styled.nav`
-    max-width: 430px;
+    max-width: 380px;
     width: 100%;
     margin: auto;
-    background-color: #010409;
+    background-color: RosyBrown;
     text-align: center;
     border-radius: 100px;
     padding-bottom: 19px;
@@ -17,10 +17,11 @@ const Nav = styled.nav`
 const NavLink = css`
     text-decoration: none;
     padding: 0 25px;
-    color: #f1f6ff;
+    color: white;
     font-size: 30px;
     font-weight: 700;
     display: inline-block
+    
 `;
 
 const MenuBars = styled(FaBars)`
@@ -35,7 +36,18 @@ const MenuBars = styled(FaBars)`
     }
 `;
 
-const NavMenu = styled.div`
+const NavMenu = styled.a`
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #f1f6ff;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+
+    &:hover {
+        color: green;
+        transform: translateY(2px);
+    }
     @media screen and (max-width: 250px){
         display: none;
     }
@@ -51,14 +63,17 @@ const NavMenuLinks = styled(Link)`
 const Navbar = () => {
     return (
         <Nav>
-            <MenuBars />
-            <NavMenu>
+            <MenuBars/>
+            {/* <NavMenu>
                 {menuData.map((item, index) => (
                     <NavMenuLinks to={item.link} key={index}>
                         {item.title}
                     </NavMenuLinks>
                 ))}
-            </NavMenu>
+            </NavMenu> */}
+            <NavMenu href="/">Home</NavMenu> 
+            <NavMenu href="/about">About</NavMenu> 
+            <NavMenu href="/courses">Courses</NavMenu> 
         </Nav>
     )
 }
