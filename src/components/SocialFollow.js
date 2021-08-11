@@ -16,6 +16,7 @@ const Social = styled.a`
     color: black;
     &:hover {
         transform: translateY(-2px);
+        color: green;
     }
 `;
 

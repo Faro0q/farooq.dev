@@ -12,6 +12,7 @@ const Nav = styled.nav`
     text-align: center;
     border-radius: 100px;
     padding-bottom: 19px;
+    height: 20px;
 `;
 
 const NavLink = css`
@@ -27,6 +28,7 @@ const NavLink = css`
 const MenuBars = styled(FaBars)`
     padding: 1rem 2rem;
     display: none;
+    
     
     @media screen and (max-width: 250px){
         display: block;
