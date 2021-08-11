@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import ReactRoundedImage from "react-rounded-image";
 import pic from '../images/me-pic.png'
+import { Helmet } from 'react-helmet';
 
 const ProfileSection = styled.a`
     height: 100vh;
@@ -25,7 +26,11 @@ const ProfileWrapper = styled.div`
 
 const Home = () => {
     return (
+        
         <ProfileSection>
+            <Helmet>
+            <title>Home | Farooq Syed</title>
+            </Helmet>
             <ProfileWrapper>
             <ReactRoundedImage
                 image={pic}
