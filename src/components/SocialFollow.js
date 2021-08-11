@@ -1,0 +1,56 @@
+import React from "react";
+import styled from 'styled-components/macro'
+// import styles from '../App.css'; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faLinkedin,
+    faGithub,
+    faReadme,
+    faTelegramPlane
+} from "@fortawesome/free-brands-svg-icons";
+
+const Social = styled.a`
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    
+    &:hover {
+        transform: translateY(-2px);
+    }
+`;
+
+const SocialWrapper = styled.div`
+    padding-top: -800px;
+    padding-bottom: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+`;
+
+
+
+export default function SocialFollow() {
+  return (
+        <SocialWrapper>
+            <Social href="https://www.linkedin.com/in/faro0q/"
+            className="linkedin social" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </Social>
+
+            <Social href="https://github.com/Faro0q"
+            className="github social" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+            </Social>
+
+            <Social href="../images/Farooq_Syed_Resume.pdf"
+            className="resume social" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faReadme} size="2x" />
+            </Social>
+
+            <Social href="mailto:syed@farooq.dev"
+            className="youtube social" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faTelegramPlane} size="2x" />
+            </Social>
+         </SocialWrapper>
+  );
+}
