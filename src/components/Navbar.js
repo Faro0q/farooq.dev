@@ -8,7 +8,7 @@ const Nav = styled.nav`
     max-width: 380px;
     width: 100%;
     margin: auto;
-    background-color: RosyBrown;
+    background-color: black;
     text-align: center;
     border-radius: 100px;
     padding-bottom: 19px;
@@ -71,9 +71,10 @@ const Navbar = () => {
                     </NavMenuLinks>
                 ))}
             </NavMenu> */}
-            <NavMenu href="/">Home</NavMenu> 
-            <NavMenu href="/about">About</NavMenu> 
-            <NavMenu href="/courses">Courses</NavMenu> 
+            <NavMenu><Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>Home</Link></NavMenu>
+            <NavMenu><Link to="/about" style={{ color: 'inherit', textDecoration: 'none' }}>About</Link></NavMenu>
+            <NavMenu><Link to="/courses" style={{ color: 'inherit', textDecoration: 'none' }}>Courses</Link></NavMenu>
+            
         </Nav>
     )
 }
