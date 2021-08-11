@@ -32,15 +32,15 @@ const Home = () => {
             <title>Home | Farooq Syed</title>
             </Helmet>
             <ProfileWrapper>
-            <ReactRoundedImage
-                image={pic}
-                roundedColor="green"
-                imageWidth="400"
-                imageHeight="500"
-                roundedSize="10"
-                borderRadius="500"
-                hoverColor="black"
-                object-fit="cover"
+                <ReactRoundedImage
+                    image={pic}
+                    roundedColor="green"
+                    imageWidth="400"
+                    imageHeight="500"
+                    roundedSize="10"
+                    borderRadius="500"
+                    hoverColor="black"
+                    object-fit="cover"
                 />
             </ProfileWrapper>
         </ProfileSection>
