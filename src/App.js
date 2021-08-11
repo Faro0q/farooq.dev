@@ -1,25 +1,3 @@
-// import React from 'react'
-// import Navbar from './components/Navbar'
-// import Home from './components/Home';
-// import SocialFollow from './components/SocialFollow';
-// import GlobalStyle from './globalStyles';
-
-
-// function App() {
-//   return (
-//     <>
-//       <GlobalStyle />
-//       <Navbar />
-//       <Home />
-//       <SocialFollow />
-//     </>
-//   );
-// }
-
-// export default App;
-
-
-
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
