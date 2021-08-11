@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import ReactRoundedImage from "react-rounded-image";
 import pic from '../images/me-pic.png'
 
-const ProfileSection = styled.section`
+const ProfileSection = styled.a`
     height: 100vh;
     max-height: 1100px;
     position:relative;
@@ -12,6 +12,8 @@ const ProfileSection = styled.section`
 `;
 
 const ProfileWrapper = styled.div`
+    padding-top: 50px;
+    padding-bottom: 20px;
     width: 100%;
     height: 70%;
     display: flex;
