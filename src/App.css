@@ -3,6 +3,7 @@ a {
     color:green;
 }
 
+
 #title {
     text-align: center;
     /* font-family: sans-serif; */
@@ -37,4 +38,17 @@ a {
   
   .tooltip {
     width: 200px;
+  }
+
+  img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
   }
