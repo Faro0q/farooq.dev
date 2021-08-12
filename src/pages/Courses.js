@@ -2,11 +2,17 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import '../App.css'; 
 import {tableData} from '../data/TableData'
+import ReactTooltip from "react-tooltip";
 
 class Courses extends React.Component {
     constructor(props) {
        super(props)
-       this.state = {students: [
+       this.state = { students: [
+        {
+            "id": "CS 494",
+            "name": "Principles of Concurrent Programming",
+            "description": "This course examines the theory and practice of writing correct concurrent programs. Subjects covered include multiprocessor architecture, mutual exclusion, wait‐free and lock‐free synchronization, memory models, language support for concurrent programming (spin locks, monitors, thread pools, event loops), concurrency models (shared memory, message passing, actors, fork‐join), and transactional synchronization."
+        },
         {
             "id": "CS 494",
             "name": "Principles of Concurrent Programming",
@@ -39,10 +45,13 @@ class Courses extends React.Component {
        return (
           <div>
              <h3 id='title'>All the course work</h3>
+             <ReactTooltip place="left" type="success" effect="solid" />
+             {/* <ReactTooltip /> */}
              <table id='students'>
                 <tbody>
                    <tr>{this.renderTableHeader()}</tr>
                    {this.renderTableData()}
+                   {/* <span data-tip="hello">{this.renderTableData()}</span> */}
                 </tbody>
              </table>
              <br></br>
