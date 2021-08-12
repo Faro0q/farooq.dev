@@ -1,64 +1,36 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import '../App.css'; 
-import {tableData} from '../data/TableData'
+import tableData from '../data/TableJson.json'
 import ReactTooltip from "react-tooltip";
 
-class Courses extends React.Component {
-    constructor(props) {
-       super(props)
-       this.state = { students: [
-        {
-            "id": "CS 494",
-            "name": "Principles of Concurrent Programming",
-            "description": "This course examines the theory and practice of writing correct concurrent programs. Subjects covered include multiprocessor architecture, mutual exclusion, wait‐free and lock‐free synchronization, memory models, language support for concurrent programming (spin locks, monitors, thread pools, event loops), concurrency models (shared memory, message passing, actors, fork‐join), and transactional synchronization."
-        },
-        {
-            "id": "CS 494",
-            "name": "Principles of Concurrent Programming",
-            "description": "This course examines the theory and practice of writing correct concurrent programs. Subjects covered include multiprocessor architecture, mutual exclusion, wait‐free and lock‐free synchronization, memory models, language support for concurrent programming (spin locks, monitors, thread pools, event loops), concurrency models (shared memory, message passing, actors, fork‐join), and transactional synchronization."
-        }
-      ]}
-    }
- 
-    renderTableHeader() {
-       let header = Object.keys(this.state.students[0])
-       return header.map((key, index) => {
-          return <th key={index}>{key.toUpperCase()}</th>
-       })
-    }
- 
-    renderTableData() {
-       return this.state.students.map((student, index) => {
-          const { id, name, description } = student //destructuring
-          return (
-             <tr key={id}>
-                <td>{id}</td>
-                <td>{name}</td>
-                <td>{description}</td>
-             </tr>
-          )
-       })
-    }
- 
+class Courses extends Component {
+
     render() {
        return (
-          <div>
-             <h3 id='title'>All the course work</h3>
-             <ReactTooltip place="left" type="success" effect="solid" />
-             {/* <ReactTooltip /> */}
-             <table id='students'>
-                <tbody>
-                   <tr>{this.renderTableHeader()}</tr>
-                   {this.renderTableData()}
-                   {/* <span data-tip="hello">{this.renderTableData()}</span> */}
-                </tbody>
-             </table>
-             <br></br>
-          </div>
+            <div>
+                <h4 id='title'> This is a list of some of the courses I've taken at the <a class="text-link" href="https://cs.uic.edu/" target="_blank" rel="noreferrer" >
+                University of Illinois at Chicago</a></h4>
+                <table id='students'>
+                    <tr>
+                        <th>Course Id</th>
+                        <th>Course Name</th>
+                    </tr>
+                    {tableData.map((detail, index) => {
+                        return <tr>
+                            <td data-tip={detail.attributes.description}>{detail.id}</td>
+                            <td>{detail.attributes.name}</td>
+                            
+                        </tr>
+                        
+                    })}
+                    <ReactTooltip className="tooltip" multiline={true} effect="solid"/>
+                </table>
+                <br></br>
+            </div>
        )
     }
  }
  
- ReactDOM.render(<Courses />, document.getElementById('root'));
  export default Courses
+
+ 
