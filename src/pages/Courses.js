@@ -8,8 +8,8 @@ class Courses extends Component {
     render() {
        return (
             <div>
-                <h4 id='title'> This is a list of some of the courses I've taken at the <a class="text-link" href="https://cs.uic.edu/" target="_blank" rel="noreferrer" >
-                University of Illinois at Chicago</a></h4>
+                <h3 id='title'> This is a list of some of the courses I've taken at the <a class="text-link" href="https://cs.uic.edu/" target="_blank" rel="noreferrer" >
+                University of Illinois at Chicago</a></h3>
                 <table id='students'>
                     <tr>
                         <th>Course Id</th>
@@ -19,7 +19,6 @@ class Courses extends Component {
                         return <tr>
                             <td data-tip={detail.attributes.description}>{detail.id}</td>
                             <td>{detail.attributes.name}</td>
-                            
                         </tr>
                         
                     })}

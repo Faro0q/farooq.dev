@@ -1,6 +1,5 @@
 import React from "react";
 import styled from 'styled-components/macro'
-// import styles from '../App.css'; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -43,8 +42,8 @@ export default function SocialFollow() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
             </Social>
 
-            <Social href="../images/Farooq_Syed_Resume.pdf"
-            className="resume social" target="_blank" rel="noreferrer">
+            <Social href="/resume"
+            type="application/pdf" className="resume social" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faReadme} size="2x" />
             </Social>
 
