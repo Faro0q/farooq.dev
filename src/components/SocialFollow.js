@@ -43,7 +43,7 @@ export default function SocialFollow() {
             </Social>
 
             <Social href="/resume"
-            type="application/pdf" className="resume social" target="_blank" rel="noreferrer">
+            type="application/pdf" className="resume social" rel="noreferrer">
             <FontAwesomeIcon icon={faReadme} size="2x" />
             </Social>
 
