@@ -1,0 +1,254 @@
+[
+    {
+      "type": "course",
+      "id": "CS 494a",
+      "attributes": {
+        "course-id": "CS 494",
+        "name": "Systems Programming in Rust",
+        "description": "This course explores safe low‐level systems programming, in the context of the Rust programming language. Here, systems programming refers to the development of systems software, such as operating systems, garbage collectors and memory managers, debuggers, network protocols and more."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 494b",
+      "attributes": {
+        "course-id": "CS 494",
+        "name": "Principles of Concurrent Programming",
+        "description": "This course examines the theory and practice of writing correct concurrent programs. Subjects covered include multiprocessor architecture, mutual exclusion, wait‐free and lock‐free synchronization, memory models, language support for concurrent programming (spin locks, monitors, thread pools, event loops), concurrency models (shared memory, message passing, actors, fork‐join), and transactional synchronization."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 484",
+      "attributes": {
+        "course-id": "CS 484",
+        "name": "Secure Web Application Development",
+        "description": "Web applications integrate concepts from software engineering, systems programming, and computer security. Teaches security through web development, enabling students to design, deploy, scale, attack, and defend modern web applications."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 480",
+      "attributes": {
+        "course-id": "CS 480",
+        "name": "Database Systems",
+        "description": "Database design, logical design, physical design. Relational databases. Recovery, concurrency control. Normalization."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 474",
+      "attributes": {
+        "course-id": "CS 474",
+        "name": "Object-Oriented Languages and Environments",
+        "description": "Data abstraction, classes and objects, messages and methods, polymorphism and dynamic binding, inheritance. Object-oriented design. Pure and hybrid object-oriented languages. "
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 441",
+      "attributes": {
+        "course-id": "CS 441",
+        "name": "Cloud Computing",
+        "description": "Provides a broad but solid overview of engineering distributed object for cloud computing. Students will learn the theory and principles of engineering distributed objects for cloud environments."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 418",
+      "attributes": {
+        "course-id": "CS 418",
+        "name": "Introduction to Data Science",
+        "description": "Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 407",
+      "attributes": {
+        "course-id": "CS 407",
+        "name": "Computational Finance",
+        "description": "Techniques for analysis of markets, making decisions with other strategic agents, and understanding how algorithms affect the incentives of market participants. These include game theory, mechanism design, auction theory, and social choice theory."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 401",
+      "attributes": {
+        "course-id": "CS 401",
+        "name": "Computer Algorithms I",
+        "description": "Design and analysis of computer algorithms. Divide-and-conquer, dynamic programming, greedy method, backtracking. Algorithms for sorting, searching, graph computations, pattern matching, NP-complete problems."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 398",
+      "attributes": {
+        "course-id": "CS 398",
+        "name": "Undergraduate Research",
+        "description": "Researching program coverage for use in greybox fuzz-testing with Professor Luís Pina. In our project, we create a graph representation of a program to quantify coverage metrics for portions of the graph that are reachable from some entrypoint (e.g., a node in the graph)"
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 377",
+      "attributes": {
+        "course-id": "CS 377",
+        "name": "Communication and Ethical Issues in Computing",
+        "description": "Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 362",
+      "attributes": {
+        "course-id": "CS 362",
+        "name": "Computer Design",
+        "description": "Computer hardware building blocks. logic gates; combinational circuits; arithmetic circuits; flip flops and sequential circuits; registers and memory; CPU design; I/O design."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 361",
+      "attributes": {
+        "course-id": "CS 361",
+        "name": "Systems Programming",
+        "description": "Study of computer systems emphasizing impact on application level programming. Virtual memory and memory management; code optimization; system-level I/O; concurrency: processes, threads, synchronization; introduction to network programming"
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 342",
+      "attributes": {
+        "course-id": "CS 342",
+        "name": "Software Design",
+        "description": "Software design principles and practices: Object-oriented design; design patterns; software reuse; testing; event driven programming and concurrency; graphical user interface design and development; Team development."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 341",
+      "attributes": {
+        "course-id": "CS 341",
+        "name": "Programming Language Design and Implementation",
+        "description": "Programming language paradigms, design and implementation: syntax and semantics; parsing; runtime systems; control; data types; subroutines and exceptions; data and procedural abstraction; functional programming."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 301",
+      "attributes": {
+        "course-id": "CS 301",
+        "name": "Languages and Automata",
+        "description": "Regular sets and finite automata. Context-free languages and push-down automata. Parsing. Computability theory including Turing machines and decidability."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 261",
+      "attributes": {
+        "course-id": "CS 261",
+        "name": "Machine Organization",
+        "description": "Data representation and computer arithmetic; machine language; addressing; memory hierarchy; subroutines; data structures; processor architecture: hardwdare components, pipelining."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 251",
+      "attributes": {
+        "course-id": "CS 251",
+        "name": "Data Structures",
+        "description": "Design, usage and analysis of data structures: review of lists, stacks and queues; hash tables, priority queues, search trees, introduction to graphs; searching and sorting; runtime analysis."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 211",
+      "attributes": {
+        "course-id": "CS 211",
+        "name": "Programming Practicum",
+        "description": "Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 151",
+      "attributes": {
+        "course-id": "CS 151",
+        "name": "Mathematical Foundations of Computing",
+        "description": "Discrete mathematics concepts fundamental to computing: propositional logic, predicates and quantifiers; proofs; sets; recursive definitions and induction; functions, relations and graphs; combinatorics and discrete probability; applications."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 141",
+      "attributes": {
+        "course-id": "CS 141",
+        "name": "Program Design II",
+        "description": "Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises."
+      }
+    },
+    {
+      "type": "course",
+      "id": "CS 111",
+      "attributes": {
+        "course-id": "CS 111",
+        "name": "Program Design I",
+        "description": "Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises."
+      }
+    },
+    {
+      "type": "course",
+      "id": "IE 342",
+      "attributes": {
+        "course-id": "IE 342",
+        "name": "Probability and Statistics for Engineers",
+        "description": "Probability, random variables, mathematical expectation, discrete and continuous distributions, sampling distributions, estimation theory, and test of hypothesis."
+      }
+    },
+    {
+      "type": "course",
+      "id": "MATH 310",
+      "attributes": {
+        "course-id": "MATH 310",
+        "name": "Applied Linear Algebra",
+        "description": "Matrices, row reduction algorithm, vector spaces, LU-decomposition, orthogonality, Gram-Schmidt process, determinants, inner products, eigenvalue problems, applications to differential equations and Markov processes."
+      }
+    },
+    {
+      "type": "course",
+      "id": "MATH 215",
+      "attributes": {
+        "course-id": "MATH 215",
+        "name": "Introduction to Advanced Mathematics",
+        "description": "Introduction to methods of proofs used in different fields in mathematics."
+      }
+    },
+    {
+      "type": "course",
+      "id": "MATH 210",
+      "attributes": {
+        "course-id": "MATH 210",
+        "name": "Calculus III",
+        "description": "Vectors in space, functions of several variables, partial differential and optimization, multiple integrals, vector fields, Greene's Theorem, Stoke's Theorem."
+      }
+    },
+    {
+      "type": "course",
+      "id": "MATH 181",
+      "attributes": {
+        "course-id": "MATH 181",
+        "name": "Calculus II",
+        "description": "Techniques of integration, arc length, solids of revolution, applications, polar coordinates, parametric equations, infinite sequences and series, power series. "
+      }
+    },
+    {
+      "type": "course",
+      "id": "MATH 180",
+      "attributes": {
+        "course-id": "MATH 180",
+        "name": "Calculus I",
+        "description": "Differentiation, curve sketching, maximum-minimum problems, related rates, mean-value theorem, antiderivative, Riemann integral, logarithm, and exponential functions."
+      }
+    }
+  ]
