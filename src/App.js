@@ -9,7 +9,6 @@ import Error from './pages/Error';
 import Navigation from './components/Navbar'
 import SocialFollow from './components/SocialFollow';
 import GlobalStyle from './globalStyles.js';
-
  
 class App extends Component {
   render() {
