@@ -5,31 +5,36 @@ a {
 
 #title {
     text-align: center;
-    font-family: arial, sans-serif;
+    /* font-family: sans-serif; */
   }
   
   #students {
-    text-align: center;
+    /* text-align: center; */
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     border: 3px solid #ddd;
-    width: 100%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #students td, #students th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 5px;
   }
   
-  #students tr:nth-child(even){background-color: #f2f2f2;}
+  #students tr:nth-child(even){background-color: #ebebeb;}
   
-  #students tr:hover {background-color: #ddd;}
+  #students tr:hover {background-color: #4CAF50;}
   
   #students th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
     background-color: #4CAF50;
     color: white;
+    text-align: left;
   }
   
+  .tooltip {
+    width: 200px;
+  }
