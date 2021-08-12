@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components/macro'
+import Pdf from '../images/Farooq_Syed_Resume.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -42,8 +43,8 @@ export default function SocialFollow() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
             </Social>
 
-            <Social href="/resume"
-            type="application/pdf" className="resume social" rel="noreferrer">
+            <Social href={Pdf}
+            target = "_blank" className="resume social" rel="noreferrer">
             <FontAwesomeIcon icon={faReadme} size="2x" />
             </Social>
 
