@@ -22,7 +22,7 @@ const Social = styled.a`
 
 const SocialWrapper = styled.div`
     padding-top: -800px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     width: 300px;
     margin: auto;
     text-align: center;
