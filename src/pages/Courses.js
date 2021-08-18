@@ -18,7 +18,7 @@ class Courses extends Component {
                     {tableData.map((detail, index) => {
                         return <tr>
                             <td data-tip={detail.attributes.description}>{detail.id}</td>
-                            <td>{detail.attributes.name}</td>
+                            <td data-tip={detail.attributes.description}>{detail.attributes.name}</td>
                         </tr>
                         
                     })}
