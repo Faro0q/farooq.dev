@@ -4,14 +4,12 @@ import styled from 'styled-components/macro'
 import {FaBars} from 'react-icons/fa'
 
 const Nav = styled.nav`
-    max-width: 380px;
+    max-width: 390px;
     width: 100%;
     margin: auto;
     background-color: black;
     text-align: center;
     border-radius: 100px;
-    padding-bottom: 19px;
-    height: 20px;
 `;
 
 
