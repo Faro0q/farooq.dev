@@ -21,12 +21,13 @@ const About = () => {
                 Hi! I'm Farooq, a Software Engineer from Chicago, Illinois.
             </p>
             <p style={styleObj}>
-                I study Computer Science at the <a class="text-link" href="https://cs.uic.edu/" target="_blank" rel="noreferrer" >
-                University of Illinois at Chicago</a> and I graduate in December of 2021. 
+                I graduated in December 2021 with a degree in Computer Science at <a class="text-link" href="https://cs.uic.edu/" target="_blank" rel="noreferrer" >
+                University of Illinois at Chicago.</a> 
             </p>
             <p style={styleObj}>
                 In the past, I have worked at <a class="text-link" href="https://www.fidelity.com/" target="_blank" rel="noreferrer">
-                Fidelity Investments</a> as a Software Engineer Intern. 
+                Fidelity Investments</a> as a Software Engineer Intern and currently working at <a class="text-link" href="https://www.taxact.com/" target="_blank" rel="noreferrer">
+                TaxAct</a> as a Part-Time Full-Stack Software Engineer.
             </p>
             <p style={styleObj}>
                 This site was made using <a class="text-link" href="https://reactjs.org/" target="_blank" rel="noreferrer">
