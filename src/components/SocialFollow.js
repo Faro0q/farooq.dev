@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components/macro'
-import Pdf from '../images/Syed_Farooq_Dec.pdf'
+import Pdf from '../images/Farooq_Syed_2022.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
